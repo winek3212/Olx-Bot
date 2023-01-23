@@ -6,7 +6,7 @@ const bot = new Discord.Client();
 
 
 const prefix = "!";
-const TOKEN = '';
+
 let currentOffer = "b450"; 
 let latestOfferArr = []; 
 
@@ -73,4 +73,4 @@ bot.on("message", message => {
   }
 });
 
-bot.login('TOKEN'); 
+bot.login('MTA2NDYyNTIxMDk4NjMzNjI2Nw.GDkJJG.joozc7OF0LEGO3vBvfb2WMLiahbkcJJe3LORQQ'); 
